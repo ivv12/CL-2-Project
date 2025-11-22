@@ -1,6 +1,7 @@
 ## CL-2 Project
 
 When Words Fall into Place: Zipf’s Law and the Language of Machines
+
 _A Comparative Analysis of Statistical Distributions in Human and LLM-Generated Texts_
 
 **Research Question**
