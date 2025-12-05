@@ -296,7 +296,7 @@ The README now provides everything someone needs to understand, use, and extend 
 
 ---
 
-_**User (2025-12-05 17:54Z)**_
+_**User (2025-12-05 17:55Z)**_
 
 remove all emojis
 
@@ -316,7 +316,55 @@ Read [](file:///home/venya-velmurugan/Documents/CL-2/Project/CL-2-Project/README
 
 ---
 
-I'll remove all emojis from the README file. Let me first check the current content to see what's there. 
+<tool-use data-tool-type="unknown" data-tool-name="copilot_replaceString">
+<details>
+<summary>Tool use: **copilot_replaceString**</summary>
+
+Additional data:
+
+```json
+{
+  "vscodeToolId": "copilot_replaceString",
+  "isHidden": true
+}
+```
+Result:
+
+```json
+{
+  "invocationMessage": "Using \"Replace String in File\"",
+  "isConfirmed": true,
+  "content": "&#96;&#96;&#96;markdown\n**Do large language models produce word frequency distributions that follow Zipf's Law in the same way human language does?** If deviations exist, can these statistical differences be systematically quantified to understand the linguistic properties and \"human-likeness\" of LLM-generated text?\n\n## Key Features\n\n- **Zipf's Law Analysis**: Compute and visualize word frequency distributions following Zipf's Law\n&#96;&#96;&#96;\n\n&#96;&#96;&#96;markdown\n- **Automated Pipeline**: Process multiple text samples and generate comprehensive statistics\n- **Visualization Suite**: Generate plots for individual samples and comparative analyses\n\n## Metrics Analyzed\n\n### 1. **Zipf's Law**\n&#96;&#96;&#96;\n\n&#96;&#96;&#96;markdown\n- **K parameter**: Scaling factor for vocabulary size\n- **R² Score**: Model fit quality\n\n## Project Structure\n\n&#96;&#96;&#96;\n&#96;&#96;&#96;\n\n&#96;&#96;&#96;markdown\n├── tamil_data/                     # Tamil language corpus\n└── README.md\n&#96;&#96;&#96;\n\n## Getting Started\n\n### Prerequisites\n&#96;&#96;&#96;\n\n&#96;&#96;&#96;markdown\n# Run Heaps analysis only\npython heaps_least_effort.py\n&#96;&#96;&#96;\n\n## Output Files\n\n### Per-Sample Outputs\n&#96;&#96;&#96;\n\n&#96;&#96;&#96;markdown\n- &#96;heaps_beta_boxplot.png&#96;: Distribution of Heaps β values across models\n- &#96;zci_barplot.png&#96;: Mean ZCI scores per model\n\n## Sample Results\n\n| Model | Avg Zipf Slope (b) | Avg Heaps β | Mean ZCI |\n&#96;&#96;&#96;\n\n&#96;&#96;&#96;markdown\n\n*Note: Values shown are approximate averages from the sample data.*\n\n## Key Findings\n\n1. **GPT-4** shows the closest alignment to human Zipf slopes (b ≈ -0.8) and highest ZCI scores\n&#96;&#96;&#96;\n\n&#96;&#96;&#96;markdown\n3. **Gemini models** tend to have shallower Zipf slopes, suggesting different word usage patterns\n4. **ZCI metric** effectively captures human-likeness, with GPT-4 scoring closest to human baselines\n\n## Customization\n\n### Adding New Text Samples\n&#96;&#96;&#96;\n\n&#96;&#96;&#96;markdown\n# Change Heaps sampling step\nN, V = compute_heaps(tokens, step=100)  # Default: 100\n&#96;&#96;&#96;\n\n## Theoretical Background\n\n### Zipf's Law\n&#96;&#96;&#96;\n\n&#96;&#96;&#96;markdown\n### Zipf Completeness Index (ZCI)\n&#96;ZCI = R² × exp(-|b + 1|)&#96;\n\nCombines fit quality with ideal slope proximity to quantify human-likeness.\n\n## Contributing\n\nContributions are welcome! Please feel free to submit a Pull Request.\n\n## License\n\nThis project is licensed under the MIT License - see the LICENSE file for details.\n\n## Authors\n\n- Research conducted as part of CL-2 course project\n\n## Acknowledgments\n\n- Human essay samples from various sources\n- LLM text generated using GPT-4, GPT-5, Claude-4, Claude-4.5, Gemini-2.5-Flash, and Gemini-2.5-Pro\n- Inspired by linguistic research on Zipf's Law and Heaps' Law\n\n## Contact\n\nFor questions or collaboration, please open an issue on GitHub.\n&#96;&#96;&#96;\n\n",
+  "textEditContent": "**Do large language models produce word frequency distributions that follow Zipf's Law in the same way human language does?** If deviations exist, can these statistical differences be systematically quantified to understand the linguistic properties and \"human-likeness\" of LLM-generated text?\n\n## Key Features\n\n- **Zipf's Law Analysis**: Compute and visualize word frequency distributions following Zipf's Law- **Automated Pipeline**: Process multiple text samples and generate comprehensive statistics\n- **Visualization Suite**: Generate plots for individual samples and comparative analyses\n\n## Metrics Analyzed\n\n### 1. **Zipf's Law**- **K parameter**: Scaling factor for vocabulary size\n- **R² Score**: Model fit quality\n\n## Project Structure\n\n&#96;&#96;&#96;├── tamil_data/                     # Tamil language corpus\n└── README.md\n&#96;&#96;&#96;\n\n## Getting Started\n\n### Prerequisites# Run Heaps analysis only\npython heaps_least_effort.py\n&#96;&#96;&#96;\n\n## Output Files\n\n### Per-Sample Outputs- &#96;heaps_beta_boxplot.png&#96;: Distribution of Heaps β values across models\n- &#96;zci_barplot.png&#96;: Mean ZCI scores per model\n\n## Sample Results\n\n| Model | Avg Zipf Slope (b) | Avg Heaps β | Mean ZCI |\n*Note: Values shown are approximate averages from the sample data.*\n\n## Key Findings\n\n1. **GPT-4** shows the closest alignment to human Zipf slopes (b ≈ -0.8) and highest ZCI scores3. **Gemini models** tend to have shallower Zipf slopes, suggesting different word usage patterns\n4. **ZCI metric** effectively captures human-likeness, with GPT-4 scoring closest to human baselines\n\n## Customization\n\n### Adding New Text Samples# Change Heaps sampling step\nN, V = compute_heaps(tokens, step=100)  # Default: 100\n&#96;&#96;&#96;\n\n## Theoretical Background\n\n### Zipf's Law### Zipf Completeness Index (ZCI)\n&#96;ZCI = R² × exp(-|b + 1|)&#96;\n\nCombines fit quality with ideal slope proximity to quantify human-likeness.\n\n## Contributing\n\nContributions are welcome! Please feel free to submit a Pull Request.\n\n## License\n\nThis project is licensed under the MIT License - see the LICENSE file for details.\n\n## Authors\n\n- Research conducted as part of CL-2 course project\n\n## Acknowledgments\n\n- Human essay samples from various sources\n- LLM text generated using GPT-4, GPT-5, Claude-4, Claude-4.5, Gemini-2.5-Flash, and Gemini-2.5-Pro\n- Inspired by linguistic research on Zipf's Law and Heaps' Law\n\n## Contact\n\nFor questions or collaboration, please open an issue on GitHub.",
+  "toolCallResult": null
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+---
+
+I'll remove all emojis from the README file. Let me first check the current content to see what's there. Now I'll remove all the emojis from the README: Perfect! I've successfully removed all emojis from the README file. The changes include:
+
+- Removed 📖 from "Overview"
+- Removed 🎯 from "Key Features"
+- Removed 📊 from "Metrics Analyzed" (appeared twice)
+- Removed 🗂️ from "Project Structure"
+- Removed 🚀 from "Getting Started"
+- Removed 📈 from "Output Files"
+- Removed 🔍 from "Key Findings"
+- Removed 🛠️ from "Customization"
+- Removed 📚 from "Theoretical Background"
+- Removed 🤝 from "Contributing"
+- Removed 📄 from "License"
+- Removed 👥 from "Authors"
+- Removed 🙏 from "Acknowledgments"
+- Removed 📧 from "Contact"
+
+Your README now has a clean, professional look without any emojis while maintaining all the content and structure.
 
 ---
 
