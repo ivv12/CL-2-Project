@@ -1,0 +1,10 @@
+model: gemini-2.5-pro
+version: gemini-2.5-pro
+sample: sample2
+tokens: 1573
+types: 663
+zipf_b: -0.6575812130980406
+zipf_r2: 0.866574140609071
+zci: 0.6153116466058591
+heaps_beta: 0.8121214579754575
+heaps_r2: 0.9951688211450463

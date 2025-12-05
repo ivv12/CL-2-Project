@@ -1,0 +1,10 @@
+model: gpt-5
+version: gpt-5
+sample: sample5
+tokens: 1717
+types: 710
+zipf_b: -0.7123262281573101
+zipf_r2: 0.9077040612114264
+zci: 0.6807836968044595
+heaps_beta: 0.7864961600468984
+heaps_r2: 0.9989217971249963

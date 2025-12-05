@@ -1,0 +1,10 @@
+model: claude-4.5
+version: claude-4.5
+sample: sample1
+tokens: 1424
+types: 627
+zipf_b: -0.6878841504528099
+zipf_r2: 0.9200893792115966
+zci: 0.6734104110916113
+heaps_beta: 0.7789602155892082
+heaps_r2: 0.9962441368416939

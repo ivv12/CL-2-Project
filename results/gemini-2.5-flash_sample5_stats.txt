@@ -1,0 +1,10 @@
+model: gemini-2.5-flash
+version: gemini-2.5-flash
+sample: sample5
+tokens: 1494
+types: 695
+zipf_b: -0.6024157635554306
+zipf_r2: 0.8486330411726328
+zci: 0.5702316214232307
+heaps_beta: 0.8496784621989368
+heaps_r2: 0.9973636271750514

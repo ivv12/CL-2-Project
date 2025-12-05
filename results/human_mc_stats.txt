@@ -1,0 +1,10 @@
+model: human
+version: essay
+sample: mc
+tokens: 1144
+types: 518
+zipf_b: -0.6727133210363214
+zipf_r2: 0.9068592913794317
+zci: 0.6537340535592635
+heaps_beta: 0.8033704010546057
+heaps_r2: 0.9969921887176962

@@ -1,0 +1,10 @@
+model: human
+version: essay
+sample: tolentino
+tokens: 2040
+types: 952
+zipf_b: -0.6218825887300503
+zipf_r2: 0.8812705638057008
+zci: 0.6038025722698703
+heaps_beta: 0.8277482324334728
+heaps_r2: 0.9983095992844795

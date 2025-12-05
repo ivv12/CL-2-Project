@@ -1,0 +1,10 @@
+model: gpt-4
+version: gpt-4
+sample: sample2
+tokens: 479
+types: 340
+zipf_b: -0.418631289033497
+zipf_r2: 0.8016196226771681
+zci: 0.44821162515241014
+heaps_beta: 0.8652240497182375
+heaps_r2: 0.9992965180999684

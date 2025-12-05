@@ -1,0 +1,10 @@
+model: human
+version: essay
+sample: tbt
+tokens: 1696
+types: 674
+zipf_b: -0.7344308405698198
+zipf_r2: 0.9134838050828387
+zci: 0.700431439835694
+heaps_beta: 0.8091528219220808
+heaps_r2: 0.9981371048291316
